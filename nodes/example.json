@@ -1,0 +1,19 @@
+{
+  "run_list":[
+    "wordpress"
+  ],
+  "mysql": {
+    "server_root_password": "mysqlrootpassword",
+    "server_repl_password": "mysqlrootpassword",
+    "server_debian_password": "mysqlrootpassword"
+  },
+  "wordpress":{
+    "url":"http://ja.wordpress.org/wordpress-3.8.1-ja.tar.gz",
+    "db":{
+      "pass":"mysqlwppassword"
+    },
+    "languages":{
+      "lang":"ja"
+    }
+  }
+}
